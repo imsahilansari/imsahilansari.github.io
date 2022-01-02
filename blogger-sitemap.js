@@ -258,7 +258,7 @@ function displayToc2() {
             document.write("<li>");
             document.write('<a href="' + postUrl[a] + '">' + postTitle[a] + "</a>");
             if (postBaru[a] == true) {
-                document.write(' - <span class="new">New!</span>')
+                document.write(' - <span class="new">Latest!</span>')
             }
             document.write("</li>");
             a = a + 1

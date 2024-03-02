@@ -71,9 +71,8 @@
     <script>
         const loadingText = document.getElementById('loadingText');
         const keyDisplay = document.getElementById('keyDisplay');
-
         setTimeout(() => {
-            fetch('bhai4you.com/hsalf/generate.php')
+            fetch('//bhai4you.com/hsalf/generate.php')
                 .then(response => response.json())
                 .then(data => {
                     if (data.key) {
@@ -87,7 +86,7 @@
                 .catch(error => {
                     keyDisplay.textContent = 'An error occurred while fetching the Flash key.';
                 });
-        }, 5000); // 10 seconds
+        }, 5000); // 5 seconds
     </script>
 </body>
 </html>

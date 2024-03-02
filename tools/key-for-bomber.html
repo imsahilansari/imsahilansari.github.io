@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,16 +63,17 @@
         <h1>Flash Bomber Key</h1>
         <p id="loadingText">Generating key, please wait...</p>
         <p id="keyDisplay"></p>
+	 <div style="text-align: center;"><b><span style="color: black; font-family: Lato; font-size: medium;">Made with ❤️ by <a href="https://instagram.com/imsahilansarii" rel="nofollow">Sahil Ansari</a></span></b></div>   
+   
 	     </div>
-	<div style="text-align: center;"><b><span style="color: black; font-family: Lato; font-size: medium;">Made with ❤️ by <a href="https://instagram.com/imsahilansarii" rel="nofollow">Sahil Ansari</a></span></b></div>   
-
+	
 
     <script>
         const loadingText = document.getElementById('loadingText');
         const keyDisplay = document.getElementById('keyDisplay');
 
         setTimeout(() => {
-            fetch('//bhai4you.com/hsalf/generate.php')
+            fetch('bhai4you.com/hsalf/generate.php')
                 .then(response => response.json())
                 .then(data => {
                     if (data.key) {
@@ -87,7 +87,7 @@
                 .catch(error => {
                     keyDisplay.textContent = 'An error occurred while fetching the Flash key.';
                 });
-        }, 10000); // 10 seconds
+        }, 5000); // 10 seconds
     </script>
 </body>
 </html>

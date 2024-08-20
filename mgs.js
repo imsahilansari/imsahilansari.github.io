@@ -478,7 +478,7 @@ function init() {
         let endDate = getCurrentDate();
 
         const now = new Date();
-        if (now.getHours() >= 22) {
+        if (now.getHours() >= 1:30) {
             endDate = addOneDay(endDate);
         }
 

@@ -422,7 +422,7 @@ function loadSVGs(callback) {
 function updateCountdown() {
     const now = new Date();
     const targetTime = new Date();
-    targetTime.setHours(21, 59, 30, 0);
+    targetTime.setHours(01, 29, 30, 0);
     if (now > targetTime) targetTime.setDate(targetTime.getDate() + 1);
 
     const diff = targetTime - now;
@@ -478,7 +478,7 @@ function init() {
         let endDate = getCurrentDate();
 
         const now = new Date();
-        if (now.getHours() >= 1:30) {
+        if (now.getHours() >= 22) {
             endDate = addOneDay(endDate);
         }
 

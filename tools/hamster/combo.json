@@ -1,0 +1,14 @@
+[
+    {
+        "image": "https://example.com/path/to/youtube-icon.png",
+        "description": "Hamster YouTube Channel"
+    },
+    {
+        "image": "https://example.com/path/to/nigeria-flag.png",
+        "description": "Licence Nigeria"
+    },
+    {
+        "image": "https://example.com/path/to/oracle-hamster.png",
+        "description": "Oracle"
+    }
+]
